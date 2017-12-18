@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <shared />
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="backports (v3.10.3, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.3, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.16.0, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cucumber (v3.0.1, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cucumber-core (v3.0.0, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cucumber-expressions (v4.0.4, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cucumber-tag_expressions (v1.0.1, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cucumber-wire (v0.0.1, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.3, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="domain_name (v0.5.20170404, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.18, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="gherkin (v4.1.3, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http-cookie (v1.0.3, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mime-types (v3.1, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mime-types-data (v3.2016.0521, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.12.2, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_test (v0.1.2, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="netrc (v0.11.0, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="power_assert (v0.4.1, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rest-client (v2.0.2, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="test-unit (v3.2.6, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unf (v0.1.4, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unf_ext (v0.0.7.4, ruby) [gem]" level="application" />
+  </component>
+</module>
