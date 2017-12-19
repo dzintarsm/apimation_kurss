@@ -1,7 +1,7 @@
 require 'rest-client'
 
 def post(url, headers: {}, cookies: {}, payload: {})
-  # RestClient.log = 'stdout'
+  RestClient.log = 'stdout'
   RestClient::Request.execute(
       method: :post,
       url: url,

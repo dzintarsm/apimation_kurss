@@ -26,9 +26,6 @@ def login_positive
   @test_user.set_session_cookie(response.cookies)
 
   @test_user.set_user_id( response_hash['user_id'])
-
-  puts @test_user.user_id
-  puts @test_user.session_cookie
 end
 
 def check_personal_info
@@ -40,7 +37,7 @@ def check_personal_info
   assert_equal(200, response.code, "NOT logged in?!?")
 
   response_hash = JSON.parse(response)
-  puts response.body
+
   assert_equal('qadzilv@yopmail.com', response_hash['email'], 'VAJJJ')
   assert_equal('2fb58aa0-d694-11e7-8bcd-5d3e2d5d7554', response_hash['user_id'], 'Login is incorrect!')
   #assert_notEqual(nil, response_hash['sid'], 'KASTANU')
