@@ -1,12 +1,16 @@
 require 'json'
 require_relative 'features/support/api_helper.rb'
 
+build_number = ARGV[0]
+
+job_url = ARGV[1]
+
 thumbnail = { 'url' => 'http://www.la.lv/wp-content/uploads/2014/10/gurkis_66622975-664x458.jpg'}
 
 #sakuma tuksh masivs
 fields = []
-fields.push( {'name' => 'Author', 'value' => 'Dzi'})
-fields.push( {'name' => 'Position', 'value' => 'Gurkj testeris'})
+fields.push( {'Jenkins_job' => 'Author', 'value' => job_url})
+fields.push( {'name' => 'Build_number', 'value' => build_number})
 
 embed = []
 embed.push({'title' => 'Rich content',
